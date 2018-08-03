@@ -1,0 +1,14 @@
+#hidden-image {
+    visibility: hidden;
+    height: 50px;
+}
+
+img {
+    z-index: 1;
+    position: absolute;
+    top: -88px;
+    height: 175px;
+    left: 50%;
+    margin-left: -100px;
+}
+

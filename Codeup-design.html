@@ -2,15 +2,16 @@
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/design.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet"> <!--ABEL REGULAR FONT/imported from google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet"> <!--ANTON REGULAR FONT/imported from google fonts-->
     <title>Codeup Designs</title>
 </head>
-<body class="bg-light">
+<body>
 <!--This is the mobile screen setup-->
 <img src="images/logo.png" id="hidden-image" alt="multiple layer logo">
 
@@ -30,21 +31,21 @@
         </div>
 <!--This is the codeup design section-->
         <div>
-            <h1 class="text-center mt-5 mb-4">codeup design</h1>
+            <h1 class="text-center mt-5 mb-4" id="codeUpDesign">codeup design</h1>
         </div>
         <nav>
             <ul class="nav justify-content-center mb-5">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
+                    <a class="nav-link" href="#">SERVICES</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Work</a>
+                    <a class="nav-link" href="#">WORK</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Blog</a>
+                    <a class="nav-link" href="#">BLOG</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#">CONTACT</a>
                 </li>
             </ul>
         </nav>
@@ -56,15 +57,15 @@
     <!--Quad Badge Area 2x2-->
     <div class="container circle">
         <div class="row justify-content-center">
-            <div class="col-xs-6"><span id="design">DESIGN</span></div>
-            <div class="col-xs-6"><span id="develop">DEVELOP</span></div>
+            <div class="col-xs-6 m-2"><span id="design">DESIGN</span></div>
+            <div class="col-xs-6 m-2"><span id="develop">DEVELOP</span></div>
         </div>
         <div class="row justify-content-center">
-            <div class="col-xs-6"><span id="support">SUPPORT</span></div>
-            <div class="col-xs-6"><span id="host">HOST</span></div>
+            <div class="col-xs-6 m-2"><span id="support">SUPPORT</span></div>
+            <div class="col-xs-6 m-2"><span id="host">HOST</span></div>
         </div>
     </div>
-        <h5 class="my-3 text-center">SELECTED WORK</h5>
+        <h5 class="my-3 text-center" id="selectedWork">SELECTED WORK</h5>
     <div class="container parent">
         <div class="row">
             <div>
@@ -73,14 +74,19 @@
         </div>
     <div class="container">
         <div class="row mt-3">
-            <h5 class="text-left mr-5">FEATURED PROJECT</h5>
-                <div class="col-xs-8 pr-2"><span id="idesign"><a href="#design">D</a></span></div>
-                <div class="col-xs-8 pr-2"><span id="idevelop"><a href="#develop">D</a></span></div>
-                <div class="col-xs-8 pr-2"><span id="isupport"><a href="#support">D</a></span></div>
-                <div class="col-xs-8 pr-2"><span id="ihost"><a href="#host">D</a></span></div>
+            <div class="col-m">
+                <h5 class="text-left mr-5">FEATURED PROJECT</h5>
+            </div>
+            <div class="col-l d-inline-block">
+                <div class="pr-2 d-inline-block"><span id="idesign"><a href="#design">D</a></span></div>
+                <div class="pr-2 d-inline-block"><span id="idevelop"><a href="#develop">D</a></span></div>
+                <div class="pr-2 d-inline-block"><span id="isupport"><a href="#support">S</a></span></div>
+                <div class="pr-2 d-inline-block"><span id="ihost"><a href="#host">H</a></span></div>
+
+            </div>
         </div>
     </div>
-    <footer class="my-5 bg-light" id="footer"></footer>
+    <footer class="my-5" id="footer"></footer>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

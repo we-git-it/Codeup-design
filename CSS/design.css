@@ -1,4 +1,28 @@
+body{
+    background: #f0f0f0;
+}
+
+a { color: inherit; }
+
+.text-center, .col-xs-6, #idesign, #ihost, #isupport, #idevelop {
+    font-family: 'Anton', sans-serif;
+    color: #000;
+}
+
+.nav-link, h5{
+    font-family: 'Abel', sans-serif;
+}
+
+#selectedWork, #codeUpDesign {
+    font-family: 'Abel', sans-serif!important;
+}
+
+
 @media screen and (max-width:500px){
+    body {
+        margin-top: -95px;
+    }
+
     #hidden-image {
         visibility: hidden;
         height: 50px;
@@ -11,6 +35,10 @@
         height: 175px;
         left: 50%;
         margin-left: -100px;
+    }
+
+    .circle {
+        margin-top: -2em;
     }
 
     #host {
@@ -68,7 +96,7 @@
         vertical-align: middle;
         border-radius: 50%;
         background: #e6563b;
-        color: #fff;
+        color: #000!important;
         font: 18px;
         position: relative;
         top: 42%;
@@ -86,7 +114,7 @@
     }
 
     .border {
-        border: 8px solid darkgray !important;
+        border: 8px solid #e6e6e6 !important;
     }
 
     #idesign {
@@ -97,7 +125,6 @@
         vertical-align: middle;
         border-radius: 50%;
         background: #e6563b;
-        color: #000;
         /*font: 3px;*/
         position: relative;
         top: 42%;
@@ -111,7 +138,6 @@
         vertical-align: middle;
         border-radius: 50%;
         background: #eb9d3a;
-        color: #000;
         /*font: 9px;*/
         position: relative;
         top: 42%;
@@ -125,7 +151,6 @@
         vertical-align: middle;
         border-radius: 50%;
         background: #7cb06c;
-        color: #000;
         /*font: 9px;*/
         position: relative;
         top: 42%;
@@ -139,7 +164,6 @@
         vertical-align: middle;
         border-radius: 50%;
         background: #00aba9;
-        color: #000;
         /*font: 9px;*/
         position: relative;
         top: 42%;

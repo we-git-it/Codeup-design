@@ -1,9 +1,10 @@
+/*BREAKPOINT 500px*/
 #hidden-image {
     visibility: hidden;
     height: 50px;
 }
 
-img {
+#icon {
     z-index: 1;
     position: absolute;
     top: -88px;
@@ -11,4 +12,19 @@ img {
     left: 50%;
     margin-left: -100px;
 }
+/*#apple{*/
+    /*margin: 0 auto;*/
+    /*border: 5px darkgray;*/
+/*}*/
+/*.appleipad {*/
+    /*display: flex;*/
+    /*!*align-content: center;*!*/
+    /*!*display: block;*!*/
+    /*!*margin: 0 auto;*!*/
+    /*!*margin-right: auto;*!*/
+    /*!*width: 80%;*!*/
+    /*!*height: 150px;*!*/
+    /*width: 100%;*/
+/*}*/
 
+/*THIS IS SMALL STYLING*/

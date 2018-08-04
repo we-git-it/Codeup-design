@@ -1,155 +1,167 @@
-/*BREAKPOINT 500px*/
-#hidden-image {
-    visibility: hidden;
-    height: 50px;
+@media screen and (max-width:500px){
+    #hidden-image {
+        visibility: hidden;
+        height: 50px;
+    }
+
+    #icon {
+        z-index: 1;
+        position: absolute;
+        top: -88px;
+        height: 175px;
+        left: 50%;
+        margin-left: -100px;
+    }
+
+    #host {
+        display: table-cell;
+        height: 105px;
+        width: 105px;
+        text-align: center;
+        vertical-align: middle;
+        border-radius: 50%;
+        background: #00aba9;
+        color: #fff;
+        font: 18px;
+        position: relative;
+        top: 42%;
+        border: white solid 8px;
+
+    }
+
+    #support {
+        display: table-cell;
+        height: 105px;
+        width: 105px;
+        text-align: center;
+        vertical-align: middle;
+        border-radius: 50%;
+        background: #7cb06c;
+        color: #fff;
+        font: 18px;
+        position: relative;
+        top: 42%;
+        border: white solid 8px;
+    }
+
+    #develop {
+        display: table-cell;
+        height: 105px;
+        width: 105px;
+        text-align: center;
+        vertical-align: middle;
+        border-radius: 50%;
+        background: #eb9d3a;
+        color: #fff;
+        font: 18px;
+        position: relative;
+        top: 42%;
+        border: white solid 8px;
+
+    }
+
+    #design {
+        display: table-cell;
+        height: 105px;
+        width: 105px;
+        text-align: center;
+        vertical-align: middle;
+        border-radius: 50%;
+        background: #e6563b;
+        color: #fff;
+        font: 18px;
+        position: relative;
+        top: 42%;
+        border: white solid 8px;
+    }
+
+    .parent {
+        width: 80%;
+    }
+
+    #child {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .border {
+        border: 8px solid darkgray !important;
+    }
+
+    #idesign {
+        display: table-cell;
+        height: 18px;
+        width: 24px;
+        text-align: center;
+        vertical-align: middle;
+        border-radius: 50%;
+        background: #e6563b;
+        color: #000;
+        /*font: 3px;*/
+        position: relative;
+        top: 42%;
+    }
+
+    #idevelop {
+        display: table-cell;
+        height: 18px;
+        width: 24px;
+        text-align: center;
+        vertical-align: middle;
+        border-radius: 50%;
+        background: #eb9d3a;
+        color: #000;
+        /*font: 9px;*/
+        position: relative;
+        top: 42%;
+    }
+
+    #isupport {
+        display: table-cell;
+        height: 18px;
+        width: 24px;
+        text-align: center;
+        vertical-align: middle;
+        border-radius: 50%;
+        background: #7cb06c;
+        color: #000;
+        /*font: 9px;*/
+        position: relative;
+        top: 42%;
+    }
+
+    #ihost {
+        display: table-cell;
+        height: 18px;
+        width: 24px;
+        text-align: center;
+        vertical-align: middle;
+        border-radius: 50%;
+        background: #00aba9;
+        color: #000;
+        /*font: 9px;*/
+        position: relative;
+        top: 42%;
+    }
+
+    #footer {
+        margin-bottom: 8px !important;
+    }
 }
+} /*<!-- CONCLUSION OF VERY SMALL BROWSER WINDOW SECTION -->*/
 
-#icon {
-    z-index: 1;
-    position: absolute;
-    top: -88px;
-    height: 175px;
-    left: 50%;
-    margin-left: -100px;
-}
-
-#host {
-    display: table-cell;
-    height: 105px;
-    width: 105px;
-    text-align: center;
-    vertical-align: middle;
-    border-radius: 50%;
-    background: #00aba9;
-    color: #fff;
-    font: 18px;
-    position: relative;
-    top: 42%;
-    border: white solid 8px;
+@media screen and (min-width:500px) and (max-width:640px){
 
 }
+} /*<!-- CONCLUSION OF SMALL BROWSER WINDOW SECTION -->*/
 
-#support {
-    display: table-cell;
-    height: 105px;
-    width: 105px;
-    text-align: center;
-    vertical-align: middle;
-    border-radius: 50%;
-    background: #7cb06c;
-    color: #fff;
-    font: 18px;
-    position: relative;
-    top: 42%;
-    border: white solid 8px;
-}
-
-#develop {
-    display: table-cell;
-    height: 105px;
-    width: 105px;
-    text-align: center;
-    vertical-align: middle;
-    border-radius: 50%;
-    background: #eb9d3a;
-    color: #fff;
-    font: 18px;
-    position: relative;
-    top: 42%;
-    border: white solid 8px;
+@media screen and (min-width:640px) and (max-width:1000px){
 
 }
+} /*<!-- CONCLUSION OF MEDIUM BROWSER WINDOW SECTION -->*/
 
-#design {
-    display: table-cell;
-    height: 105px;
-    width: 105px;
-    text-align: center;
-    vertical-align: middle;
-    border-radius: 50%;
-    background: #e6563b;
-    color: #fff;
-    font: 18px;
-    position: relative;
-    top: 42%;
-    border: white solid 8px;
-}
-.parent {
-    width: 80%;
-}
+@media screen and (min-width:1000px){
 
-#child {
-    display: block;
-    width: 100%;
-    height: auto;
 }
-
-.border {
-    border: 8px solid darkgray!important;
-}
-
-#idesign {
-    display: table-cell;
-    height: 18px;
-    width: 24px;
-    text-align: center;
-    vertical-align: middle;
-    border-radius: 50%;
-    background: #e6563b;
-    color: #000;
-    /*font: 3px;*/
-    position: relative;
-    top: 42%;
-    /*border: white solid 8px;*/
-}
-
-#idevelop {
-    display: table-cell;
-    height: 18px;
-    width: 24px;
-    text-align: center;
-    vertical-align: middle;
-    border-radius: 50%;
-    background: #eb9d3a;
-    color: #000;
-    /*font: 9px;*/
-    position: relative;
-    top: 42%;
-    /*border: white solid 8px;*/
-}
-
-#isupport {
-    display: table-cell;
-    height: 18px;
-    width: 24px;
-    text-align: center;
-    vertical-align: middle;
-    border-radius: 50%;
-    background: #7cb06c;
-    color: #000;
-    /*font: 9px;*/
-    position: relative;
-    top: 42%;
-    /*border: white solid 8px;*/
-}
-
-#ihost {
-    display: table-cell;
-    height: 18px;
-    width: 24px;
-    text-align: center;
-    vertical-align: middle;
-    border-radius: 50%;
-    background: #00aba9;
-    color: #000;
-    /*font: 9px;*/
-    position: relative;
-    top: 42%;
-    /*border: white solid 8px;*/
-}
-
-#footer {
-    margin-bottom: 8px!important;
-}
-
-/*THIS IS SMALL STYLING*/
+} /*<!-- CONCLUSION OF LARGE BROWSER WINDOW SECTION -->*/

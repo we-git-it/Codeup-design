@@ -12,19 +12,144 @@
     left: 50%;
     margin-left: -100px;
 }
-/*#apple{*/
-    /*margin: 0 auto;*/
-    /*border: 5px darkgray;*/
-/*}*/
-/*.appleipad {*/
-    /*display: flex;*/
-    /*!*align-content: center;*!*/
-    /*!*display: block;*!*/
-    /*!*margin: 0 auto;*!*/
-    /*!*margin-right: auto;*!*/
-    /*!*width: 80%;*!*/
-    /*!*height: 150px;*!*/
-    /*width: 100%;*/
-/*}*/
+
+#host {
+    display: table-cell;
+    height: 105px;
+    width: 105px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: #00aba9;
+    color: #fff;
+    font: 18px;
+    position: relative;
+    top: 42%;
+    border: white solid 8px;
+
+}
+
+#support {
+    display: table-cell;
+    height: 105px;
+    width: 105px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: #7cb06c;
+    color: #fff;
+    font: 18px;
+    position: relative;
+    top: 42%;
+    border: white solid 8px;
+}
+
+#develop {
+    display: table-cell;
+    height: 105px;
+    width: 105px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: #eb9d3a;
+    color: #fff;
+    font: 18px;
+    position: relative;
+    top: 42%;
+    border: white solid 8px;
+
+}
+
+#design {
+    display: table-cell;
+    height: 105px;
+    width: 105px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: #e6563b;
+    color: #fff;
+    font: 18px;
+    position: relative;
+    top: 42%;
+    border: white solid 8px;
+}
+.parent {
+    width: 80%;
+}
+
+#child {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.border {
+    border: 8px solid darkgray!important;
+}
+
+#idesign {
+    display: table-cell;
+    height: 18px;
+    width: 24px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: #e6563b;
+    color: #000;
+    /*font: 3px;*/
+    position: relative;
+    top: 42%;
+    /*border: white solid 8px;*/
+}
+
+#idevelop {
+    display: table-cell;
+    height: 18px;
+    width: 24px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: #eb9d3a;
+    color: #000;
+    /*font: 9px;*/
+    position: relative;
+    top: 42%;
+    /*border: white solid 8px;*/
+}
+
+#isupport {
+    display: table-cell;
+    height: 18px;
+    width: 24px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: #7cb06c;
+    color: #000;
+    /*font: 9px;*/
+    position: relative;
+    top: 42%;
+    /*border: white solid 8px;*/
+}
+
+#ihost {
+    display: table-cell;
+    height: 18px;
+    width: 24px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: #00aba9;
+    color: #000;
+    /*font: 9px;*/
+    position: relative;
+    top: 42%;
+    /*border: white solid 8px;*/
+}
+
+#footer {
+    margin-bottom: 8px!important;
+}
 
 /*THIS IS SMALL STYLING*/

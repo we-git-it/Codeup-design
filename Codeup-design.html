@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -52,26 +52,35 @@
             <div class="col"></div>
         </div>
         <h1 class="text-center">VISUAL DESIGN & WEB DEVELOPMENT</h1>
-        <h2 class="text-center mt-5">FROM PARK CITY, UTAH</h2>
+        <h2 class="text-center my-5">FROM PARK CITY, UTAH</h2>
     <!--Quad Badge Area 2x2-->
-    <div class="container">
+    <div class="container circle">
         <div class="row justify-content-center">
-            <div class="badge badge-pill badge-primary col-xs-6">DESIGN</div>
-            <div class="badge badge-pill badge-primary col-xs-6">DEVELOP</div>
+            <div class="col-xs-6"><span id="design">DESIGN</span></div>
+            <div class="col-xs-6"><span id="develop">DEVELOP</span></div>
         </div>
         <div class="row justify-content-center">
-            <div class="badge badge-pill badge-primary col-xs-6">SUPPORT</div>
-            <div class="badge badge-pill badge-primary col-xs-6">HOST</div>
+            <div class="col-xs-6"><span id="support">SUPPORT</span></div>
+            <div class="col-xs-6"><span id="host">HOST</span></div>
         </div>
     </div>
         <h5 class="my-3 text-center">SELECTED WORK</h5>
-    <div class="container">
-        <div class="row justify-content-center">
-        <img src="Images/apple-ipad.jpg" alt="apples surrounding ipad" class="col-xs-8">
+    <div class="container parent">
+        <div class="row">
+            <div>
+            <img src="Images/apple-ipad.jpg" alt="apples surrounding" id="child" class="border border-dark rounded">
+            </div>
         </div>
-    <div>
-
+    <div class="container">
+        <div class="row mt-3">
+            <h5 class="text-left mr-5">FEATURED PROJECT</h5>
+                <div class="col-xs-8 pr-2"><span id="idesign">D</span></div>
+                <div class="col-xs-8 pr-2"><span id="idevelop">D</span></div>
+                <div class="col-xs-8 pr-2"><span id="isupport">S</span></div>
+                <div class="col-xs-8 pr-2"><span id="ihost">H</span></div>
+        </div>
     </div>
+    <footer class="my-5 bg-light" id="footer"></footer>
 
 
 

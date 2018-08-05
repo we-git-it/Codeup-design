@@ -336,7 +336,166 @@ hr{
 
 } /*<!-- CONCLUSION OF SMALL BROWSER WINDOW SECTION -->*/
 
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+            /*BEGINNING OF THE MEDIUM DEVICE*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 @media screen and (min-width:640px) and (max-width:1000px){
+    #hidden-image{
+        display: none;
+    }
+
+    #icon {
+        z-index: 1;
+        position: absolute;
+        top: -60px;
+        height: 110px;
+        right: 21em;
+    }
+
+    #topNav{
+        z-index: 1;
+        margin-top: -35px;
+        float: right;
+        font-size: 12px;
+    }
+
+    #topNav a{
+        padding: .6rem .7rem;
+    }
+
+    #subtitle{
+        margin-left: 3em;
+        font-size: 34px;
+        display: inline-block;
+        margin-top: .5em;
+    }
+
+    #location{
+        font-size: 1.4em;
+        margin-top: 18px!important;
+    }
+
+    .mediumCodeupDesign{
+        position: absolute;
+        top: 0.1em;
+        margin-left: 6.7em;
+        font-size: x-large;
+    }
+
+    #whiterow {
+        padding: 1rem !important;
+    }
+
+    #host {
+        background: #00aba9;
+    }
+
+    #support {
+        background: #7cb06c;
+    }
+
+    #develop {
+        background: #eb9d3a;
+    }
+
+    #design {
+        background: #e6563b;
+    }
+
+    #design, #develop, #support, #host {
+        display: table-cell;
+        height: 105px;
+        width: 105px;
+        text-align: center;
+        vertical-align: middle;
+        border-radius: 50%;
+        color: #000!important;
+        font-size: 18px;
+        position: relative;
+        top: 42%;
+        border: white solid 8px;
+    }
+
+    #circleSmallestDevices {
+        display: none;
+    }
+
+    #littleImages{
+        display: none!important;
+    }
+
+    #littleDevices{
+        display: none!important;
+    }
+
+    .littleLetters{
+        display: none!important;
+    }
+
+    #child{
+        display: none;
+    }
+
+    #smallest{
+        display: none!important;
+    }
+
+    #littleFeaturedProjects{
+        display: none!important;
+    }
+
+    #mediumImages {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .mediumLetters{
+        /*position: absolute;*/
+        margin-left: -15px;
+        top: 0.6em;
+    }
+
+    #mediumFeaturedProjects{
+        font-size: .7em;
+        /* display: inline-block; */
+        margin-top: 1em;
+        position: absolute;
+        margin-left: -12px;
+
+    }
+
+    .securityHeight{
+        min-height: 168px;
+    }/*HEIGHT OF IMAGE PROVIDED CAUSES CONFLICT WITH BOOTSTRAP'S UNIFORM STRUCTURE OF IMAGES IN COLUMNS WHICH REQUIRES THE HEIGHT OF IMAGE BE SPECIFICALLY TARGETED*/
+
+    #idesign {
+        background: #e6563b;
+    }
+
+    #idevelop {
+        background: #eb9d3a;
+    }
+
+    #isupport {
+        background: #7cb06c;
+    }
+
+    #ihost {
+        background: #00aba9;
+    }
+
+    #idesign, #isupport, #idevelop, #ihost{
+        display: table-cell;
+        /*height: 18px;*/
+        width: 14px;
+        text-align: center;
+        vertical-align: middle;
+        border-radius: 50%;
+        font-size: 10px;
+    }
 
 
 } /*<!-- CONCLUSION OF MEDIUM BROWSER WINDOW SECTION -->*/

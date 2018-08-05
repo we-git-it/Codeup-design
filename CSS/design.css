@@ -351,7 +351,7 @@ hr{
         position: absolute;
         top: -60px;
         height: 110px;
-        right: 21em;
+        margin: 0 -95%;
     }
 
     #topNav{
@@ -369,6 +369,7 @@ hr{
         margin-left: 3em;
         font-size: 34px;
         display: inline-block;
+        width: 75%;
         margin-top: .5em;
     }
 
@@ -380,7 +381,7 @@ hr{
     .mediumCodeupDesign{
         position: absolute;
         top: 0.1em;
-        margin-left: 6.7em;
+        margin-left: 5.7em;
         font-size: x-large;
     }
 
@@ -411,7 +412,7 @@ hr{
         text-align: center;
         vertical-align: middle;
         border-radius: 50%;
-        color: #000!important;
+        color: #fff!important;
         font-size: 18px;
         position: relative;
         top: 42%;
@@ -500,6 +501,11 @@ hr{
 
 } /*<!-- CONCLUSION OF MEDIUM BROWSER WINDOW SECTION -->*/
 
+
+
 @media screen and (min-width:1000px){
 
+    #hidden-image{
+        display: none;
+    }
 } /*<!-- CONCLUSION OF LARGE BROWSER WINDOW SECTION -->*/

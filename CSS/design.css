@@ -17,6 +17,15 @@ a { color: inherit; }
     font-family: 'Abel', sans-serif!important;
 }
 
+hr{
+    width: 80%;
+    height: 10px;
+}
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+                /*BEGINNING OF THE SMALL DEVICE*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
 @media screen and (max-width:500px){
     body {
@@ -33,12 +42,25 @@ a { color: inherit; }
         position: absolute;
         top: -88px;
         height: 175px;
-        left: 50%;
+        left: 55%;
         margin-left: -100px;
+    }
+
+    nav{
+        margin-left: -6px;
     }
 
     .circle {
         margin-top: -2em;
+    }
+
+    #littleDevices, hr, #circles, .littleDevices{
+        display: none;
+    }
+
+    #smallestFeatured{
+        margin-left: 2.6rem!important;
+        margin-top: -5px;
     }
 
     #host {
@@ -50,7 +72,7 @@ a { color: inherit; }
         border-radius: 50%;
         background: #00aba9;
         color: #fff;
-        font: 18px;
+        font-size: 18px;
         position: relative;
         top: 42%;
         border: white solid 8px;
@@ -66,7 +88,7 @@ a { color: inherit; }
         border-radius: 50%;
         background: #7cb06c;
         color: #fff;
-        font: 18px;
+        font-size: 18px;
         position: relative;
         top: 42%;
         border: white solid 8px;
@@ -81,11 +103,10 @@ a { color: inherit; }
         border-radius: 50%;
         background: #eb9d3a;
         color: #fff;
-        font: 18px;
+        font-size: 18px;
         position: relative;
         top: 42%;
         border: white solid 8px;
-
     }
 
     #design {
@@ -97,7 +118,7 @@ a { color: inherit; }
         border-radius: 50%;
         background: #e6563b;
         color: #000!important;
-        font: 18px;
+        font-size: 18px;
         position: relative;
         top: 42%;
         border: white solid 8px;
@@ -119,8 +140,8 @@ a { color: inherit; }
 
     #idesign {
         display: table-cell;
-        height: 18px;
-        width: 24px;
+        height: 30px;
+        width: 30px;
         text-align: center;
         vertical-align: middle;
         border-radius: 50%;
@@ -132,8 +153,8 @@ a { color: inherit; }
 
     #idevelop {
         display: table-cell;
-        height: 18px;
-        width: 24px;
+        height: 30px;
+        width: 30px;
         text-align: center;
         vertical-align: middle;
         border-radius: 50%;
@@ -145,8 +166,8 @@ a { color: inherit; }
 
     #isupport {
         display: table-cell;
-        height: 18px;
-        width: 24px;
+        height: 30px;
+        width: 30px;
         text-align: center;
         vertical-align: middle;
         border-radius: 50%;
@@ -158,8 +179,8 @@ a { color: inherit; }
 
     #ihost {
         display: table-cell;
-        height: 18px;
-        width: 24px;
+        height: 30px;
+        width: 30px;
         text-align: center;
         vertical-align: middle;
         border-radius: 50%;
@@ -172,20 +193,152 @@ a { color: inherit; }
     #footer {
         margin-bottom: 8px !important;
     }
-}
 } /*<!-- CONCLUSION OF VERY SMALL BROWSER WINDOW SECTION -->*/
 
-@media screen and (min-width:500px) and (max-width:640px){
 
-}
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+            /*BEGINNING OF THE LITTLE DEVICE*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+@media screen and (min-width:500px) and (max-width:640px){
+    #hidden-image{
+        display: none;
+    }
+
+    #icon {
+        z-index: 1;
+        position: absolute;
+        top: -88px;
+        height: 175px;
+        left: 61%;
+        margin-left: -100px;
+    }
+
+    #topNav{
+        z-index: 1;
+        margin-top: -185px;
+    }
+
+    h1{
+        margin-top: 111px;
+    }
+
+    #littleFeaturedProjects{
+        font-size: .7em;
+        /* display: inline-block; */
+        margin-top: 1em;
+        position: absolute;
+        margin-left: -12px;
+
+    }
+
+
+    #topNav li:nth-child(3){
+    margin-left: 9.5em;
+    }
+
+    .circle {
+        margin-top: -2em;
+    }
+
+    #child{
+        display: none;
+    }
+
+    #littleImages {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .littleLetters{
+        margin-top: 8px;
+        position: absolute;
+        margin-left: -15px;
+    }
+
+    #smallest{
+        display: none;
+    }
+
+    #host {
+        background: #00aba9;
+    }
+
+    #support {
+        background: #7cb06c;
+    }
+
+    #develop {
+        background: #eb9d3a;
+    }
+
+    #design {
+        background: #e6563b;
+    }
+
+    #design, #develop, #support, #host {
+        display: table-cell;
+        height: 105px;
+        width: 105px;
+        text-align: center;
+        vertical-align: middle;
+        border-radius: 50%;
+        color: #000!important;
+        font-size: 18px;
+        position: relative;
+        top: 42%;
+        border: white solid 8px;
+    }
+
+    #circleSmallestDevices{
+        display: none;
+    }
+
+    #idesign, #isupport, #idevelop, #ihost{
+        display: table-cell;
+        /*height: 18px;*/
+        width: 14px;
+        text-align: center;
+        vertical-align: middle;
+        border-radius: 50%;
+        background: #00aba9;
+        /* position: absolute; */
+        /* margin-left: 30px; */
+        /* top: 92%; */
+        font-size: 10px;
+    }
+
+    .securityHeight{
+        min-height: 168px;
+    }/*HEIGHT OF IMAGE PROVIDED CAUSES CONFLICT WITH BOOTSTRAP'S UNIFORM STRUCTURE OF IMAGES IN COLUMNS WHICH REQUIRES THE HEIGHT OF IMAGE BE SPECIFICALLY TARGETED*/
+
+    #idesign {
+        background: #e6563b;
+    }
+
+    #idevelop {
+        background: #eb9d3a;
+    }
+
+    #isupport {
+        background: #7cb06c;
+    }
+
+    #ihost {
+        background: #00aba9;
+    }
+
+    #footer {
+        margin-bottom: 8px !important;
+    }
+
 } /*<!-- CONCLUSION OF SMALL BROWSER WINDOW SECTION -->*/
 
 @media screen and (min-width:640px) and (max-width:1000px){
 
-}
+
 } /*<!-- CONCLUSION OF MEDIUM BROWSER WINDOW SECTION -->*/
 
 @media screen and (min-width:1000px){
 
-}
 } /*<!-- CONCLUSION OF LARGE BROWSER WINDOW SECTION -->*/

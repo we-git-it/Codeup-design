@@ -6,7 +6,7 @@ body{
 
 a { color: inherit; }
 
-.text-center, .col-xs-6, #idesign, #ihost, #isupport, #idevelop {
+.text-center, .col-xs-6, #idesign, #ihost, #isupport, #idevelop, #admin, #nib, #google {
     font-family: 'Anton', sans-serif;
     color: #000;
 }
@@ -498,7 +498,21 @@ hr{
         font-size: 10px;
     }
 
+    .mediumtweets {
+        float: right;
+    }
+    #mobilphone, #headofman, #coloripad, #twitter {
+        height: 75px;
+        width: 75px;
+        float: left;
+    }
 
+    #admin, #nib, #google {
+        font-weight: bold;
+    }
+    #admin {
+        max-height: fit-content;
+    }
 } /*<!-- CONCLUSION OF MEDIUM BROWSER WINDOW SECTION -->*/
 
 

@@ -341,7 +341,7 @@ hr{
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
             /*BEGINNING OF THE MEDIUM DEVICE  (PLEASE MAKE NOTE OF NEED FOR ADJUSTMENT TO RESPONSIVENESS)
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
-@media screen and (min-width:640px) and (max-width:1000px){
+@media screen and (min-width:640px) and (max-width:1050px){
     #hidden-image{
         display: none;
     }
@@ -505,7 +505,168 @@ hr{
 
 @media screen and (min-width:1000px){
 
+    .largescale {
+        max-width: 75%;
+        margin-left: 13%;
+        margin-top: 2%;
+    }
+
     #hidden-image{
         display: none;
+    }
+
+
+    #icon {
+        z-index: 1;
+        position: absolute;
+        top: -60px;
+        height: 110px;
+        margin: 0 -58%;
+    }
+
+    #topNav{
+        z-index: 1;
+        margin-top: -35px;
+        float: right;
+        font-size: 12px;
+        margin-right: 13%;
+    }
+
+    #topNav a{
+        padding: .6rem .7rem;
+    }
+
+    #subtitle{
+        margin-left: 3em;
+        font-size: 34px;
+        display: inline-block;
+        width: 75%;
+        margin-top: .5em;
+    }
+
+    #location{
+        font-size: 1.4em;
+        margin-top: 18px!important;
+    }
+
+    .mediumCodeupDesign{
+        position: absolute;
+        top: 0.1em;
+        margin-left: 14em;
+        font-size: x-large;
+    }
+
+    #whiterow {
+        padding: 1rem !important;
+        width: 107%;
+    }
+
+    #host {
+        background: #00aba9;
+    }
+
+    #support {
+        background: #7cb06c;
+    }
+
+    #develop {
+        background: #eb9d3a;
+    }
+
+    #design {
+        background: #e6563b;
+    }
+
+    #design, #develop, #support, #host {
+        display: table-cell;
+        height: 105px;
+        width: 105px;
+        text-align: center;
+        vertical-align: middle;
+        border-radius: 50%;
+        color: #fff!important;
+        font-size: 18px;
+        position: relative;
+        top: 42%;
+        border: white solid 8px;
+    }
+
+    #circleSmallestDevices {
+        display: none;
+    }
+
+    #littleImages{
+        display: none!important;
+    }
+
+    #littleDevices{
+        display: none!important;
+    }
+
+    .littleLetters{
+        display: none!important;
+    }
+
+    #child{
+        display: none;
+    }
+
+    #smallest{
+        display: none!important;
+    }
+
+    #littleFeaturedProjects{
+        display: none!important;
+    }
+
+    #mediumImages {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .mediumLetters{
+        /*position: absolute;*/
+        margin-left: -15px;
+        top: 0.6em;
+    }
+
+    #mediumFeaturedProjects{
+        font-size: .7em;
+        /* display: inline-block; */
+        margin-top: 1em;
+        position: absolute;
+        margin-left: -12px;
+
+    }
+
+    .securityHeight{
+        min-height: 168px;
+    }/*HEIGHT OF IMAGE PROVIDED CAUSES CONFLICT WITH BOOTSTRAP'S UNIFORM STRUCTURE OF IMAGES IN COLUMNS WHICH REQUIRES THE HEIGHT OF IMAGE BE SPECIFICALLY TARGETED*/
+
+    #idesign {
+        background: #e6563b;
+    }
+
+    #idevelop {
+        background: #eb9d3a;
+    }
+
+    #isupport {
+        background: #7cb06c;
+    }
+
+    #ihost {
+        background: #00aba9;
+    }
+
+    #idesign, #isupport, #idevelop, #ihost{
+        display: table-cell;
+        /*height: 18px;*/
+        width: 14px;
+        text-align: center;
+        vertical-align: middle;
+        border-radius: 50%;
+        font-size: 10px;
     }
 } /*<!-- CONCLUSION OF LARGE BROWSER WINDOW SECTION -->*/

@@ -192,6 +192,8 @@ hr{
         top: 42%;
     }
 
+
+
     #footer {
         margin-bottom: 8px !important;
     }
@@ -230,7 +232,6 @@ hr{
         margin-top: 1em;
         position: absolute;
         margin-left: -12px;
-
     }
 
 
@@ -254,7 +255,7 @@ hr{
 
     .littleLetters{
         margin-top: 8px;
-        position: absolute;
+        /*position: absolute;*/
         margin-left: -15px;
     }
 
@@ -328,6 +329,18 @@ hr{
 
     #ihost {
         background: #00aba9;
+    }
+
+    .mediumLetters{
+        display: none!important;
+    }
+
+    #mediumFeaturedProjects{
+        display: none!important;
+    }
+
+    #mediumImages{
+        display: none!important;
     }
 
     #footer {
